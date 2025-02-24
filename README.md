@@ -45,5 +45,5 @@ git clone https://github.com/Bence749/FairnessLens
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-![uca-logo](images/uca-logo.png)
+![uca-logo](images/uca-logo.jpg)
 ![polytech-logo](images/polytech-logo.png)
