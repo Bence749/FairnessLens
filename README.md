@@ -1,4 +1,4 @@
-![fairnesslens-logo](images/fairnesslens-logo.png)
+<img src="images/fairnesslens-logo.png" width="500px">
 
 # FairnessLens
 
