@@ -12,7 +12,7 @@ Fairness in Machine Learning Models (PER2024–030)
 ## Supervisors
 
 -   Mireille Blay-Fornarino / I3S(mireille.blay@univ-cotedazur.fr)
--   Anne-Marie Pinna-Dery / I3S(anne-marie.pinna@univ-cotedazur.fr)
+-   Anne-Marie Pinna-Dery / I3S (anne-marie.pinna@univ-cotedazur.fr)
 
 ## University
 
