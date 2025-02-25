@@ -1,0 +1,17 @@
+pygwalker==0.4.9.13
+pysocks==1.7.1
+scaler==1.8.13
+seaborn==0.13.2
+ucimlrepo==0.0.7
+unicodedata2==15.1.0
+torch~=2.5.1
+numpy~=1.26.4
+matplotlib~=3.10.0
+plotly~=5.24.1
+pandas~=2.2.3
+datasets~=3.2.0
+fairlearn~=0.11.0
+scikit-learn~=1.5.2
+ipython~=8.30.0
+mercury~=2.4.3
+sqlalchemy~=1.4.27
