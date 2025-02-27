@@ -41,6 +41,34 @@ Follow the instructions below to clone the repository and set up the project on 
 git clone https://github.com/Bence749/FairnessLens
 ```
 
+### Intall Python and dependencies
+
+**Install Python**
+
+-   Ensure you have Python 3.12 installed on your system. You can download it from the official Python website. (https://www.python.org/downloads)
+
+**Upgrade pip**
+
+```bash
+python -m pip install --upgrade pip==25.0.1
+```
+
+**Install dependencies**
+
+-   Navigate to your project directory and install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Host the Mercury frontend on localhost
+
+Use PowerShell on Windows for the correct environment.
+
+```bash
+mercury run
+```
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
