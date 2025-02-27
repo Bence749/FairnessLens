@@ -47,19 +47,6 @@ git clone https://github.com/Bence749/FairnessLens
 
 -   Ensure you have Python 3.12 installed on your system. You can download it from the official Python website. (https://www.python.org/downloads)
 
-**Upgrade pip**
-
-```bash
-python -m pip install --upgrade pip==25.0.1
-```
-
--   or execute the first cell in the .ipynb file
-
-**Copy required folder**
-
-Copy the folder named 'src' into the folder '.venv/lib/pythonX.Y/site-packages/mercury' (X.Y is your python version)
-
-
 ### Host the Mercury frontend on localhost
 
 Use PowerShell on Windows for the correct environment.
@@ -70,13 +57,13 @@ Run the following command
 python3 --version
 ```
 
-Then create a .venv
+Then create a `.venv`
 
 ```bash
-pythonX.Y -m venv .venv #X.Y is the python version from the step before
+pythonX.Y -m venv .venv #X.Y is the Python version from the step before
 ```
 
-Activate this venv that we created
+Activate this `.venv` that we created
 
 ```bash
 source .venv/bin/activate
@@ -85,10 +72,20 @@ source .venv/bin/activate
 Install required dependencies
 
 ```bash
+python -m pip install --upgrade pip==25.0.1
+```
+
+Copy required folder
+
+Copy the folder named `src` into the folder `.venv/lib/pythonX.Y/site-packages/mercury` (`X.Y` is your installed Python version)
+
+Host Mercury frontend localhost
+
+```bash
 mercury run
 ```
 
-Access the frontend on 127.0.0.1:8000
+Access the Mercury frontend on [127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## License
 
