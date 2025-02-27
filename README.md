@@ -2,7 +2,7 @@
 
 # FairnessLens
 
-Fairness in Machine Learning Models (PER2024–030)
+Fairness in Machine Learning Models (PER2024-030)
 
 ## Authors
 
@@ -11,7 +11,7 @@ Fairness in Machine Learning Models (PER2024–030)
 
 ## Supervisors
 
--   Mireille Blay-Fornarino / I3S(mireille.blay@univ-cotedazur.fr)
+-   Mireille Blay-Fornarino / I3S (mireille.blay@univ-cotedazur.fr)
 -   Anne-Marie Pinna-Dery / I3S (anne-marie.pinna@univ-cotedazur.fr)
 
 ## University
@@ -53,13 +53,7 @@ git clone https://github.com/Bence749/FairnessLens
 python -m pip install --upgrade pip==25.0.1
 ```
 
-**Install dependencies**
-
--   Navigate to your project directory and install the required packages using:
-
-```bash
-pip install -r requirements.txt
-```
+-   or execute the first cell in the .ipynb file
 
 ### Host the Mercury frontend on localhost
 
@@ -68,6 +62,8 @@ Use PowerShell on Windows for the correct environment.
 ```bash
 mercury run
 ```
+
+Access the frontend on 127.0.0.1:8000
 
 ## License
 
