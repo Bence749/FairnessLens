@@ -55,9 +55,34 @@ python -m pip install --upgrade pip==25.0.1
 
 -   or execute the first cell in the .ipynb file
 
+**Copy required folder**
+
+Copy the folder named 'src' into the folder '.venv/lib/pythonX.Y/site-packages/mercury' (X.Y is your python version)
+
+
 ### Host the Mercury frontend on localhost
 
 Use PowerShell on Windows for the correct environment.
+
+Run the following command
+
+```bash
+python3 --version
+```
+
+Then create a .venv
+
+```bash
+pythonX.Y -m venv .venv #X.Y is the python version from the step before
+```
+
+Activate this venv that we created
+
+```bash
+source .venv/bin/activate
+```
+
+Install required dependencies
 
 ```bash
 mercury run
