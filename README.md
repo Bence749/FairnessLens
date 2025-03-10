@@ -46,6 +46,7 @@ git clone https://github.com/Bence749/FairnessLens
 **Install Python**
 
 -   Ensure you have Python 3.12 installed on your system. You can download it from the official Python website. (https://www.python.org/downloads)
+- **Important as with Python 3.13 it is not working**
 
 ### Host the Mercury frontend on localhost
 
@@ -69,7 +70,13 @@ Activate this `.venv` that we created
 source .venv/bin/activate
 ```
 
-Install required dependencies
+Install Mercury
+
+```bash
+pip install mercury
+```
+
+Run Mercury and then select your notebook. Other packages will be installed automatically
 
 ```bash
 python -m pip install --upgrade pip==25.0.1

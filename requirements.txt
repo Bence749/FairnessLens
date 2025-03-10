@@ -10,3 +10,4 @@ fairlearn
 ipython
 scipy
 great_tables
+kaleido
