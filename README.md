@@ -76,7 +76,7 @@ Install Mercury
 pip install mercury
 ```
 
-Run Mercury and then select your notebook. Other packages will be installed automatically
+Update pip
 
 ```bash
 python -m pip install --upgrade pip==25.0.1
